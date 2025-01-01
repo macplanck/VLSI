@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : MIPS
+Version: R-2020.09
+Date   : Sun Dec 22 01:21:23 2024
+****************************************
+
+Library(s) Used:
+
+    sc9_cln40g_base_rvt_tt_typical_max_0p90v_25c (File: /CAD/CBDK_TSMC40_Arm_f2.0/CIC/SynopsysDC/db/sc9_base_rvt/sc9_cln40g_base_rvt_tt_typical_max_0p90v_25c.db)
+
+Number of ports:                          116
+Number of nets:                          7978
+Number of cells:                         7801
+Number of combinational cells:           6742
+Number of sequential cells:              1058
+Number of macros/black boxes:               0
+Number of buf/inv:                       1114
+Number of references:                     291
+
+Combinational area:              11496.265090
+Buf/Inv area:                      907.426793
+Noncombinational area:            5279.223612
+Macro/Black Box area:                0.000000
+Net Interconnect area:               0.000000
+
+Total cell area:                 16775.488702
+Total area:                      16775.488702
+1

@@ -1,0 +1,362 @@
+irun: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+Recompiling... reason: file './Testbench.sv' is newer than expected.
+	expected: Sun Dec 22 00:11:43 2024
+	actual:   Sun Dec 22 00:12:30 2024
+ncvlog: *W,NOTIND: unable to access -INCDIR /usr/synthesis/dw/sim_ver (No such file or directory).
+file: Testbench.sv
+	module worklib.Testbench:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_interactive has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $ridbDump has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpvars has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpvarsES has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDA has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDAByFile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSVA has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpvarsByFile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbSuppress has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpon has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpoff has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbSwitchDumpfile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpfile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbAutoSwitchDumpfile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpFinish has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpflush has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbLog has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbAddRuntimeSignal has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpvarsToFile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSC has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDisplay has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumplimit has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMem has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMemNow has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMemInScope has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDANow has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDAOnChange has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDAInScope has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMemInFile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpPSL has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpPSLon has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpPSLoff has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSVAon has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSVAoff has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpStrength has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSingle has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpIO has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpPattern has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbSubstituteHier has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_create_transaction_stream has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_begin_transaction has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_end_transaction has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_free_transaction has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_add_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_update_label has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_add_relation has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_create_stream_begin has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_define_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_create_stream_end has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_begin has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_set_label has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_tag has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_end has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_relation has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_get_error_code has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_stream_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_scope_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbWhatif has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_test has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_flush_file has already been registered.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		Testbench
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.Testbench:sv <0x5e11e9fc>
+			streams:   6, words: 69839
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                21      14
+		Registers:              29      29
+		Scalar wires:           23       -
+		Expanded wires:         31       1
+		Vectored wires:        127       -
+		Always blocks:           6       6
+		Initial blocks:          3       3
+		Cont. assignments:     108     103
+		Pseudo assignments:      4       4
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.Testbench:sv
+Loading snapshot worklib.Testbench:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_interactive has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $ridbDump has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpvars has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpvarsES has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDA has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDAByFile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSVA has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpvarsByFile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbSuppress has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpon has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpoff has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbSwitchDumpfile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpfile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbAutoSwitchDumpfile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpFinish has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpflush has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbLog has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbAddRuntimeSignal has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpvarsToFile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSC has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDisplay has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumplimit has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMem has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMemNow has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMemInScope has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDANow has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDAOnChange has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMDAInScope has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpMemInFile has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpPSL has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpPSLon has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpPSLoff has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSVAon has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSVAoff has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpStrength has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpSingle has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpIO has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbDumpPattern has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbSubstituteHier has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_create_transaction_stream has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_begin_transaction has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_end_transaction has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_free_transaction has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_add_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_update_label has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_add_relation has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_create_stream_begin has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_define_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_create_stream_end has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_begin has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_set_label has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_tag has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_end has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_relation has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_get_error_code has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_stream_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbTrans_add_scope_attribute has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $fsdbWhatif has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_test has already been registered.
+WARNING:        VPI       TFTHRW
+         The user defined task or function $sps_flush_file has already been registered.
+ncsim> source /usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/inca/files/ncsimrc
+ncsim> run
+YOU PASS Pattern N0.  1
+YOU PASS Pattern N0.  2
+YOU PASS Pattern N0.  3
+YOU PASS Pattern N0.  4
+YOU PASS Pattern N0.  5
+YOU PASS Pattern N0.  6
+YOU PASS Pattern N0.  7
+YOU PASS Pattern N0.  8
+YOU PASS Pattern N0.  9
+YOU PASS Pattern N0. 10
+YOU PASS Pattern N0. 11
+YOU PASS Pattern N0. 12
+YOU PASS Pattern N0. 13
+YOU PASS Pattern N0. 14
+YOU PASS Pattern N0. 15
+YOU PASS Pattern N0. 16
+YOU PASS Pattern N0. 17
+YOU PASS Pattern N0. 18
+YOU PASS Pattern N0. 19
+YOU PASS Pattern N0. 20
+YOU PASS Pattern N0. 21
+YOU PASS Pattern N0. 22
+YOU PASS Pattern N0. 23
+[31m                                                                                                                                          
+[31m                                                                                [36m      :BBQvi.                                              
+[31m                                                              .i7ssrvs7         [36m     BBBBBBBBQi                                           
+[31m                        .:r7rrrr:::.        .::::::...   .i7vr:.      .B:       [36m    :BBBP :7BBBB.                                         
+[31m                      .Kv.........:rrvYr7v7rr:.....:rrirJr.   .rgBBBBg  Bi      [36m    BBBB     BBBB                                         
+[31m                     7Q  :rubEPUri:.       ..:irrii:..    :bBBBBBBBBBBB  B      [36m   iBBBv     BBBB       vBr                               
+[31m                    7B  BBBBBBBBBBBBBBB::BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB :R     [36m   BBBBBKrirBBBB.     :BBBBBB:                            
+[31m                   Jd .BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB: Bi    [36m  rBBBBBBBBBBBR.    .BBBM:BBB                             
+[31m                  uZ .BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB .B    [36m  BBBB   .::.      EBBBi :BBU                             
+[31m                 7B .BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  B    [36m MBBBr           vBBBu   BBB.                             
+[31m                .B  BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB: JJ   [36m i7PB          iBBBBB.  iBBB                              
+[31m                B. BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  Lu             [36m  vBBBBPBBBBPBBB7       .7QBB5i                
+[33m               Y1 KBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBi XBBBBBBBi :B            [36m :RBBB.  .rBBBBB.      rBBBBBBBB7              
+[33m              :B .BBBBBBBBBBBBBsRBBBBBBBBBBBrQBBBBB. UBBBRrBBBBBBr 1BBBBBBBBB  B.          [36m    .       BBBB       BBBB  :BBBB             
+[33m              Bi BBBBBBBBBBBBBi :BBBBBBBBBBE .BBK.  .  .   QBBBBBBBBBBBBBBBBBB  Bi         [36m           rBBBr       BBBB    BBBU            
+[33m             .B .BBBBBBBBBBBBBBQBBBBBBBBBBBB       [38;2;242;172;172mBBv [33m.LBBBBBBBBBBBBBBBBBBBBBB. B7.:ii:   [36m           vBBB        .BBBB   :7i.            
+[33m            .B  PBBBBBBBBBBBBBBBBBBBBBBBBBBBBbYQB. [38;2;242;172;172mBB: [33mBBBBBBBBBBBBBBBBBBBBBBBBB  Jr:::rK7 [36m             .7  BBB7   iBBBg                  
+[33m           7M  PBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  [38;2;242;172;172mBB. [33mBBBBBBBBBBBBBBBBBBBBBBB..i   .   v1                  [36mdBBB.   5BBBr                 
+[33m          sZ .BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  [38;2;242;172;172mBB. [33mBBBBBBBBBBBBBBBBBBBBBBBBBBB iD2BBQL.                 [36m ZBBBr  EBBBv     YBBBBQi     
+[33m  .7YYUSIX5 .BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  [38;2;242;172;172mBB. [33mBBBBBBBBBBBBBBBBBBBBBBBBY.:.      :B                 [36m  iBBBBBBBBD     BBBBBBBBB.   
+[33m LB.        ..BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB. [38;2;242;172;172mBB: [33mBBBBBBBBBBBBBBBBBBBBBBBBMBBB. BP17si                 [36m    :LBBBr      vBBBi  5BBB   
+[33m  KvJPBBB :BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB: [38;2;242;172;172mZB: [33mBBBBBBBBBBBBBBBBBBBBBBBBBsiJr .i7ssr:                [36m          ...   :BBB:   BBBu  
+[33m i7ii:.   ::BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBj [38;2;242;172;172muBi [33mQBBBBBBBBBBBBBBBBBBBBBBBBi.ir      iB                [36m         .BBBi   BBBB   iMBu  
+[32mDB    .  vBdBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBg [38;2;242;172;172m7Bi [32mBBBBBBBBBBBBBBBBBBBBBBBBBBBBB rBrXPv.                [36m          BBBX   :BBBr        
+[32m :vQBBB. BQBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBQ [38;2;242;172;172miB: [32mBBBBBBBBBBBBBBBBBBBBBBBBBBBBB .L:ii::irrrrrrrr7jIr   [36m          .BBBv  :BBBQ        
+[32m :7:.   .. 5BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  [38;2;242;172;172mBr [32mBBBBBBBBBBBBBBBBBBBBBBBBBBBB:            ..... ..YB. [36m           .BBBBBBBBB:        
+[32mBU  .:. BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  [38;2;242;172;172mB7 [32mgBBBBBBBBBBBBBBBBBBBBBBBBBB. gBBBBBBBBBBBBBBBBBB. BL [36m             rBBBBB1.         
+[32m rY7iB: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB: [38;2;242;172;172mB7 [32mBBBBBBBBBBBBBBBBBBBBBBBBBB. QBBBBBBBBBBBBBBBBBi  v5                                
+[32m     us EBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB [38;2;242;172;172mIr [32mBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBgu7i.:BBBBBBBr Bu                                 
+[32m      B  7BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.[38;2;242;172;172m:i [32mBBBBBBBBBBBBBBBBBBBBBBBBBBBv:.  .. :::  .rr    rB                                  
+[32m      us  .BBBBBBBBBBBBBQLXBBBBBBBBBBBBBBBBBBBBBBBBq  .BBBBBBBBBBBBBBBBBBBBBBBBBv  :iJ7vri:::1Jr..isJYr                                   
+[32m      B  BBBBBBB  MBBBM      qBBBBBBBBBBBBBBBBBBBBBB: BBBBBBBBBBBBBBBBBBBBBBBBBB  B:           iir:                                       
+[34m     iB iBBBBBBBL       BBBP. :BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  B.                                                       
+[34m     P: BBBBBBBBBBB5v7gBBBBBB  BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB: Br                                                        
+[34m     B  BBBs 7BBBBBBBBBBBBBB7 :BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB .B                                                         
+[34m    .B :BBBB.  EBBBBBQBBBBBJ .BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB. B.                                                         
+[34m    ij qBBBBBg          ..  .BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB .B                                                          
+[34m    UY QBBBBBBBBSUSPDQL...iBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBK EL                                                          
+[34m    B7 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB: B:                                                          
+[34m    B  BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBYrBB vBBBBBBBBBBBBBBBBBBBBBBBB. Ls                                                          
+[34m    B  BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBi_  /UBBBBBBBBBBBBBBBBBBBBBBBBB. :B:                                                        
+[35m   rM .BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  ..IBBBBBBBBBBBBBBBBQBBBBBBBBBB  B                                                        
+[35m   B  BBBBBBBBBdZBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBPBBBBBBBBBBBBEji:..     sBBBBBBBr Br                                                       
+[35m  7B 7BBBBBBBr     .:vXQBBBBBBBBBBBBBBBBBBBBBBBBBQqui::..  ...i:i7777vi  BBBBBBr Bi                                                       
+[35m  Ki BBBBBBB  rY7vr:i....  .............:.....  ...:rii7vrr7r:..      7B  BBBBB  Bi                                                       
+[35m  B. BBBBBB  B:    .::ir77rrYLvvriiiiiiirvvY7rr77ri:..                 bU  iQBB:..rI                                                      
+[35m.S: 7BBBBP  B.                                                          vI7.  .:.  B.                                                     
+[35mB: ir:.   :B.                                                             :rvsUjUgU.                                                      
+[35mrMvrrirJKur                                                                                                                               [m
+-------------------------------------------------------------------------------------------------------------------------------------
+                                                         Congratulations!                						                    
+                                                   You have passed all patterns!          						                    
+-------------------------------------------------------------------------------------------------------------------------------------
+Simulation complete via $finish(1) at time 270 NS + 0
+./Testbench.sv:441     $finish;
+ncsim> exit

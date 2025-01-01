@@ -1,0 +1,18 @@
+ 
+****************************************
+check_design summary:
+Version:     R-2020.09
+Date:        Sun Dec 22 01:21:23 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Designs                                                             3
+    Design has no outputs ports (LINT-25)                           1
+    Black box (LINT-55)                                             2
+--------------------------------------------------------------------------------
+
+Warning: Design 'MIPS' does not have any output ports. (LINT-25)
+Information: Design 'Data_Memory' does not contain any cells or nets. (LINT-55)
+Information: Design 'Instr_Memory' does not contain any cells or nets. (LINT-55)
+1
