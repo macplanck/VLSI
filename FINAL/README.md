@@ -13,7 +13,8 @@ timeline
     Final Result        : Pattern Passes
                         : Timming Report
                         : Area Report
-    GPT Generations     
+    GPT Generations     : Timming Report
+                        : Area Report
     Comparasion         : ChatGPT vs Ours
 
 
@@ -90,6 +91,39 @@ Following the MIPS Instructions listed below:
 - [`CODE`](GPT_MIPS)
 
 
+- [`Area Report`](REPORT/GPT_MIPS/02_SYN/GPT_MIPS.area)
+
+```shell!
+    Total cell area:                   243.809992
+    Total area:                        243.809992
+```
+
+- `Timing Report`(REPORT/GPT_MIPS/02_SYN/GPT_MIPS.timing)
+
+```shell!
+
+    ##########################################################################
+    ###   Critical Path                                                    ###
+    ##########################################################################
+    
+    Startpoint: PC_reg[2] (rising edge-triggered flip-flop clocked by clk)
+    Endpoint: PC_reg[31] (rising edge-triggered flip-flop clocked by clk)
+    Path Group: clk
+    Path Type: max
+
+    ##########################################################################
+    ###   Slack                                                            ###
+    ##########################################################################
+    
+    -----------------------------------------------------------
+    data required time                                  0.57
+    data arrival time                                  -0.57
+    -----------------------------------------------------------
+    slack (MET)                                         0.00  
+
+```
+
+
 
 ### **Comparasion**
 
@@ -111,8 +145,8 @@ Following the MIPS Instructions listed below:
     <tr>
         <th> GPT_MIPS           </th>
         <td> Behavorial Level   </td>
-        <td> X                  </td>
-        <td> X                  </td>
+        <td> 0.6 ns             </td>
+        <td> 243.809992         </td>
         <td> FALSE              </td>
     </tr>
 </table>

@@ -1,0 +1,46 @@
+ 
+****************************************
+check_design summary:
+Version:     R-2020.09
+Date:        Mon Dec 23 15:13:38 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Tristate                                                           32
+    A tristate bus has a non tri-state driver (LINT-34)            32
+--------------------------------------------------------------------------------
+
+Warning: In design 'MIPS', three-state bus 'N82' has non three-state driver 'PC_reg[1]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'N81' has non three-state driver 'PC_reg[0]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[2]' has non three-state driver 'PC_reg[2]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[3]' has non three-state driver 'PC_reg[3]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[4]' has non three-state driver 'PC_reg[4]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[5]' has non three-state driver 'PC_reg[5]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[6]' has non three-state driver 'PC_reg[6]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[7]' has non three-state driver 'PC_reg[7]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[8]' has non three-state driver 'PC_reg[8]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[9]' has non three-state driver 'PC_reg[9]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[10]' has non three-state driver 'PC_reg[10]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[11]' has non three-state driver 'PC_reg[11]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[12]' has non three-state driver 'PC_reg[12]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[13]' has non three-state driver 'PC_reg[13]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[14]' has non three-state driver 'PC_reg[14]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[15]' has non three-state driver 'PC_reg[15]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[16]' has non three-state driver 'PC_reg[16]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[17]' has non three-state driver 'PC_reg[17]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[18]' has non three-state driver 'PC_reg[18]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[19]' has non three-state driver 'PC_reg[19]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[20]' has non three-state driver 'PC_reg[20]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[21]' has non three-state driver 'PC_reg[21]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[22]' has non three-state driver 'PC_reg[22]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[23]' has non three-state driver 'PC_reg[23]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[24]' has non three-state driver 'PC_reg[24]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[25]' has non three-state driver 'PC_reg[25]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[26]' has non three-state driver 'PC_reg[26]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[27]' has non three-state driver 'PC_reg[27]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[28]' has non three-state driver 'PC_reg[28]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[29]' has non three-state driver 'PC_reg[29]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[30]' has non three-state driver 'PC_reg[30]/Q'. (LINT-34)
+Warning: In design 'MIPS', three-state bus 'PC_out[31]' has non three-state driver 'PC_reg[31]/Q'. (LINT-34)
+1
