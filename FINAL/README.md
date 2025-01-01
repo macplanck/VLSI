@@ -44,22 +44,22 @@ Following the MIPS Instructions listed below:
 ### **Final Result**
 
 - `Pattern Test`
-    - **run**
+    - [`run.log`](REPORT/MIPS/01_RTL/run.log)
     ![run](REPORT/MIPS/01_RTL/run.png)
-    - **jump**
+    - [`jump.log`](REPORT/MIPS/01_RTL/jump.log)
     ![jump](REPORT/MIPS/01_RTL/jump.png)
-    - **branch**
+    - [`branch.log`](REPORT/MIPS/01_RTL/branch.log)
     ![branch](REPORT/MIPS/01_RTL/branch.png)
 
 
-- `Area Report`
+- [`Area Report`](REPORT/MIPS/02_SYN/MIPS.area)
 
 ```shell!
     Total cell area:                 16775.488702
     Total area:                      16775.488702
 ```
 
-- `Timing Report`
+- [`Timing Report`](REPORT/MIPS/02_SYN/MIPS.timing)
 
 ```shell!
 
