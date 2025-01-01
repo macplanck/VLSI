@@ -1,4 +1,4 @@
-# VLSI Final Project V2
+# VLSI Final Project
 
 </br>
 
