@@ -13,7 +13,7 @@ timeline
     Final Result        : Pattern Passes
                         : Timming Report
                         : Area Report
-    GPT Generations     :
+    GPT Generations     
     Comparasion         : ChatGPT vs Ours
 
 
