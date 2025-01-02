@@ -144,7 +144,7 @@ Following the MIPS Instructions listed below:
     </tr>
     <tr>
         <th> GPT_MIPS           </th>
-        <td> Behavour Level     </td>
+        <td> Behaviour Level    </td>
         <td> 0.6 ns             </td>
         <td> 243.809992         </td>
         <td> FALSE              </td>
