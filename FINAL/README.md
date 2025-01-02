@@ -144,7 +144,7 @@ Following the MIPS Instructions listed below:
     </tr>
     <tr>
         <th> GPT_MIPS           </th>
-        <td> Behavorial Level   </td>
+        <td> Behavour Level     </td>
         <td> 0.6 ns             </td>
         <td> 243.809992         </td>
         <td> FALSE              </td>
@@ -158,7 +158,7 @@ Following the MIPS Instructions listed below:
 ## Note: Test Environment
 
 - **`01_run`**: ```ncverilog```
-- **`02_syn`**: ```40nm``` 製程
+- **`02_syn`**: ```UMC-40nm```
 
 
 
