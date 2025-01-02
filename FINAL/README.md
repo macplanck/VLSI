@@ -98,7 +98,7 @@ Following the MIPS Instructions listed below:
     Total area:                        243.809992
 ```
 
-- `Timing Report`(REPORT/GPT_MIPS/02_SYN/GPT_MIPS.timing)
+- [`Timing Report`](REPORT/GPT_MIPS/02_SYN/GPT_MIPS.timing)
 
 ```shell!
 
