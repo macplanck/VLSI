@@ -5,9 +5,9 @@
 `include "../05_Sub/ImmGen.sv"
 `include "../05_Sub/Mux.sv"
 `include "../05_Sub/PC.sv"
-`include "../05_Sub/Register.sv"
 `include "../05_Sub/ShiftLeftOne.sv"
 
+`include "../04_Mem/Register.sv"
 `include "../04_Mem/DataMemory.sv"
 `include "../04_Mem/InstructionMemory.sv"
 

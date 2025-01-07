@@ -94,8 +94,8 @@ Following the MIPS Instructions listed below:
 - [`Area Report`](REPORT/GPT_MIPS/02_SYN/GPT_MIPS.area)
 
 ```shell!
-    Total cell area:                   243.809992
-    Total area:                        243.809992
+    Total cell area:                 13874.716765
+    Total area:                      13874.716765
 ```
 
 - [`Timing Report`](REPORT/GPT_MIPS/02_SYN/GPT_MIPS.timing)
@@ -106,8 +106,10 @@ Following the MIPS Instructions listed below:
     ###   Critical Path                                                    ###
     ##########################################################################
     
-    Startpoint: PC_reg[2] (rising edge-triggered flip-flop clocked by clk)
-    Endpoint: PC_reg[31] (rising edge-triggered flip-flop clocked by clk)
+    Startpoint: m_Register/regs_reg[16][18]
+                (falling edge-triggered flip-flop clocked by clk)
+    Endpoint: m_PC/pc_o_reg[1]
+                (rising edge-triggered flip-flop clocked by clk)
     Path Group: clk
     Path Type: max
 
@@ -115,11 +117,11 @@ Following the MIPS Instructions listed below:
     ###   Slack                                                            ###
     ##########################################################################
     
-    -----------------------------------------------------------
-    data required time                                  0.57
-    data arrival time                                  -0.57
-    -----------------------------------------------------------
-    slack (MET)                                         0.00  
+    --------------------------------------------------------------------------
+    data required time                                                 0.98
+    data arrival time                                                 -0.98
+    --------------------------------------------------------------------------
+    slack (MET)                                                        0.00
 
 ```
 
@@ -131,22 +133,22 @@ Following the MIPS Instructions listed below:
     <tr>
         <th>                    </th>
         <th> Coding Level       </th>
-        <th> Cycle Time         </th>
-        <th> Area               </th>
+        <th> Min Cycle Time     </th>
+        <th> Area of Cycle 1ns  </th>
         <th> Work               </th>
     </tr>
     <tr>
         <th> MIPS               </th>
         <td> Gate Level         </td>
         <td> 0.6 ns             </td>
-        <td> 16775.488702       </td>
+        <td> 111156.972018      </td>
         <td> TRUE               </td>
     </tr>
     <tr>
         <th> GPT_MIPS           </th>
         <td> Behaviour Level    </td>
-        <td> 0.6 ns             </td>
-        <td> 243.809992         </td>
+        <td> 1.0 ns             </td>
+        <td> 13874.716765       </td>
         <td> FALSE              </td>
     </tr>
 </table>
