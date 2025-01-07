@@ -3,20 +3,21 @@
 <table>
     <tr>
         <th>                                      </th>
-        <th> Code File                            </th>
-        <th> Report Location                      </th>
-        <th> Submodule Location                   </th>
+        <th> 01_RTL                               </th>
+        <th> 02_SYN                               </th>
+        <th> 04_Mem                               </th>
+        <th> 05_Sub                               </th>
     </tr>
     <tr>
         <th> GPT_V1                               </th>
-        <td> GPT_MIPS_V1                          </td>
+        <td> GPT_MIPS_V1.sv                       </td>
         <td> No Synthesis Report                  </td>
         <td> No Submodule                         </td>
     </tr>
     <tr>
         <th> GPT_V2                               </th>
-        <td> GPT_MIPS_V2                          </td>
-        <td> Report in 02_SYN                     </td>
-        <td> Submodule in 05_Sub                  </td>
+        <td> GPT_MIPS_V2.sv                       </td>
+        <td> All files inside                     </td>
+        <td> All files inside                     </td>
     </tr>
 </table>
