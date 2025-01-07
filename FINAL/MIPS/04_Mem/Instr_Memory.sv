@@ -24,6 +24,6 @@ module Instr_Memory (
   //Initial Memory Contents
   initial begin
     for (i = 0; i < 32; i = i + 1) Instr_Mem[i] = 32'b0;
-  // end
+  end
 
 endmodule
