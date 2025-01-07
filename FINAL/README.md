@@ -146,7 +146,7 @@ Following the MIPS Instructions listed below:
     </tr>
     <tr>
         <th> GPT_MIPS                             </th>
-        <td> GATE Level                           </td>
+        <td> Gate Level                           </td>
         <td> 1.0 ns                               </td>
         <td> 13874.716765                         </td>
         <td> Don't Support Advance Instructions   </td>
