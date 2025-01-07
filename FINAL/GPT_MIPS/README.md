@@ -12,11 +12,13 @@
         <th> GPT_V1                               </th>
         <td> GPT_MIPS_V1.sv                       </td>
         <td> No Synthesis Report                  </td>
-        <td> No Submodule                         </td>
+        <td> No Memory    File                    </td>
+        <td> No Submodule File                    </td>
     </tr>
     <tr>
         <th> GPT_V2                               </th>
         <td> GPT_MIPS_V2.sv                       </td>
+        <td> All files inside                     </td>
         <td> All files inside                     </td>
         <td> All files inside                     </td>
     </tr>
