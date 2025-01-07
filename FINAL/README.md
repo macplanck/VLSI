@@ -131,25 +131,25 @@ Following the MIPS Instructions listed below:
 
 <table>
     <tr>
-        <th>                    </th>
-        <th> Coding Level       </th>
-        <th> Min Cycle Time     </th>
-        <th> Area of Cycle 1ns  </th>
-        <th> Work               </th>
+        <th>                                      </th>
+        <th> Coding Level                         </th>
+        <th> Min Cycle Time                       </th>
+        <th> Area of Cycle 1ns                    </th>
+        <th> Work                                 </th>
     </tr>
     <tr>
-        <th> MIPS               </th>
-        <td> Gate Level         </td>
-        <td> 0.6 ns             </td>
-        <td> 111156.972018      </td>
-        <td> TRUE               </td>
+        <th> MIPS                                 </th>
+        <td> Gate Level                           </td>
+        <td> 0.6 ns                               </td>
+        <td> 111156.972018                        </td>
+        <td> More Instruction Supported           </td>
     </tr>
     <tr>
-        <th> GPT_MIPS           </th>
-        <td> Behaviour Level    </td>
-        <td> 1.0 ns             </td>
-        <td> 13874.716765       </td>
-        <td> FALSE              </td>
+        <th> GPT_MIPS                             </th>
+        <td> Behaviour Level                      </td>
+        <td> 1.0 ns                               </td>
+        <td> 13874.716765                         </td>
+        <td> Don't Support Advance Instructions   </td>
     </tr>
 </table>
 
